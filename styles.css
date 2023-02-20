@@ -1,4 +1,58 @@
-Header{
+h1, h2, p, body, ul{
     margin: 0;
     padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #ec729f;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+    background-color: #fd8b8c;
+    height: 5vh;
+}
+
+main{
+    background-color: #ffbb97;
+    height: 70vh;
+    width: 70vw;
+}
+
+aside{
+    background-color:  #ffeab7;
+    width: 30vw;
+}
+
+footer{
+    background-color: #ffffce;
+    height: 15vh;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
 }
